@@ -5,11 +5,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        /* height: 100vh;
+        width: 100vw; */
+        background-color:rgb(255, 151, 151);
+
+    }
     </style>
 </head>
 <body>
-    <h1> Hi guys</h1>
-    <marquee> This is to notify that you will be benefitted by this training</marquee>
+    <div class="section1">
+        <div class = "profile-img-section">
+            <img src = https://avatars.githubusercontent.com/u/180908375?s=400&v=4
+            alt = "image" class="profile-img">
+        </div>
+        <div class="profile-data">
+        <h1>
+            Kavi Krishnaa K N
+        </h1>
+        <h4>
+            knkavikrishnaa19@gmail.com
+        </h4>
+    </div>
+    </div>
+    <div class="section2">
+        <h1 class="section-title">
+        About Myself
+    </h1>
+    <p>
+        A dedicated professional actively engaged in projects and ongoing training in web development, with a strong focus on developing and executing various high-quality projects.
+    </p>
+    </div>
+    <div class="section3">
+        <h1 class="section-title">
+        Educational Qualifications
+        </h1>
+        <table class="edu-table">
+            <tr>
+                <th>Degree</th>
+                <th>Campus</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>Class X</td>
+                <td>Kendriya Vidyalaya</td>
+                <td>85%</td>
+            </tr>
+            <tr>
+                <td>Class XII</td>
+                <td>Kendriya Vidyalaya</td>
+                <td>87%</td>
+            </tr>
+            <tr>
+                <td>BE-ECE</td>
+                <td>SIET</td>
+                <td>91%</td>
+            </tr>
+
+    </table>
+    </div>
+    <div class="section4">
+        <h1 class="section-title">
+            Internships
+        </h1>
+        <p>
+            <h3>Google</h3>
+            <p>
+                The internship at Google provided valuable experience in software development and project management. It offered an environment conducive to creativity and productivity, allowing me to contribute effectively to various projects.
+            </p>
+        </p>
+        <p>
+            <h3>Microsoft</h3>
+            <p>
+                The internship at Microsoft was a highly productive period that enhanced my software development skills. It also offered the opportunity to engage with industry professionals, facilitating efficient and impactful learning.
+            </p>
+        </p>
+    </div>
+    <div class="section5">
+        <div class="section-title">
+            <h1>Contact Details</h1>
+        </div>
+        <div class="contact-item">
+            <img src="https://static.vecteezy.com/system/resources/previews/018/910/715/non_2x/linkedin-logo-linkedin-symbol-linkedin-icon-free-free-vector.jpg" alt="linkedin Logo" class="contact-logo">
+            <span class="contact-detail">www.linkedin.com/in/k-n-kavi-krishnaa-454634277</span>
+        </div>
+        <div class="contact-item">
+            <img src="https://img.freepik.com/free-psd/phone-icon-design_23-2151311652.jpg" alt="email Logo" class="contact-logo">
+            <span class="contact-detail">knkavikrishnaa19@gmail.com</span>
+        </div>
+        <div class="contact-item">
+            <img src="https://w7.pngwing.com/pngs/356/440/png-transparent-iphone-computer-icons-telephone-email-telephone-electronics-text-mobile-phones.png" alt="Location Logo" class="contact-logo">
+            <span class="contact-detail">7339551946</span>
+        </div>
+    </div>
 </body>
 </html>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    body {
+        /* height: 100vh;
+        width: 100vw; */
+        background-color:rgb(210, 210, 210);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items:center;
+    }
+
+
+    .section1 {
+        width: 70%;
+        height: 11rem;
+        background: #FFB75E;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .profile-img-section {
+        width:40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .profile-data {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .profile-img {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .section2 {
+        width: 70%;
+        height: 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        /* padding: 10px; */
+    }
+
+    
+    .section3 {
+        width: 70%;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        /* padding: 10px; */
+    }        
+
+    
+    .edu-table {
+            width: 100%;
+            border: 1px solid gray;
+            border-collapse: collapse;
+            text-align:center;
+        }
+    
+    
+        th,
+        td {
+            padding: 1rem;
+            border: 1px solid gray;
+        }
+
+    
+    .section4 {
+        width: 70%;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        /* padding: 10px; */
+    }    
+
+    .section5 {
+        width: 70%;
+        height: 15rem;
+        display: flex-column;
+        flex-direction: center;
+        align-items: start;
+    }
+    .section-title {
+        /* height: 10%; */
+        color: rgb(9, 0, 91);
+        font-weight: bold;
+    }    
+    
+
+    .companies {
+        font-weight: bold;
+
+
+        color: rgb(54, 46, 48);
+    }
+    .section5 {
+            width: 70%;
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .contact-logo {
+            height: 2rem;
+            margin-right: 1rem;
+            border-radius:100%;
+        }
+
+        .contact-detail {
+            font-size: 1rem;
+            color: #333;
+
+</style>
+

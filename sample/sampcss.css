@@ -1,0 +1,18 @@
+.RedBox{
+    background-color: red
+}
+.BlueBox{
+    background-color: blue
+}
+.GreenBox{
+    background-color: green
+}
+
+* {
+    margins: 0px;
+    padding: 0px;
+    
+}
+.colors{
+    gap= 50px;
+}
