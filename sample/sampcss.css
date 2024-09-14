@@ -1,18 +1,62 @@
 .RedBox{
-    background-color: red
+    background-color: red;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* animation: 3s anime ease-in; */
+    
+}
+.RedBox:hover{
+    background-color:darkred;
 }
 .BlueBox{
-    background-color: blue
+    background-color: blue;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
 }
+.BlueBox:hover{
+    background-color: darkblue;
+    transition: 0 ease-in;
+
+}
+
+.GreenBox:hover{
+    background-color: darkgreen;
+    transition: 0ms ease-in;
+
+}
+
 .GreenBox{
-    background-color: green
+    background-color: green;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+    
+@keyframes anime{
+    from{
+        transform:translateX(0%);
+        rotate: 90deg
+    }
+    to{
+        transform:translateX(100%);
+        rotate: 360deg;
+    }
 }
 
 * {
-    margins: 0px;
+    margin: 0px;
     padding: 0px;
     
 }
 .colors{
-    gap= 50px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 5rem;
 }
